@@ -1,0 +1,4 @@
+interface:
+  display_name: "Improve Architecture"
+  short_description: "Audit and improve repository structure and clarity"
+  default_prompt: "Use $improve-architecture to audit this repository from first principles and produce an implementation-ready cleanup plan."
