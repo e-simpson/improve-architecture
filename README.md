@@ -7,21 +7,39 @@
     <p align="center">
       <img src="https://img.shields.io/badge/agent-Codex-black" alt="Codex" />
       <img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT license" />
-      <a href="https://github.com/e-simpson/improve-architecture-skill"><img src="https://img.shields.io/github/stars/e-simpson/improve-architecture-skill" alt="GitHub stars"></a>
+      <a href="https://github.com/e-simpson/improve-architecture"><img src="https://img.shields.io/github/stars/e-simpson/improve-architecture" alt="GitHub stars"></a>
     </p>
   </p>
 </p>
 
-## Install (paste into Codex)
+## Install and use
+
+### Install
 
 ```text
 Install the improve-architecture skill globally:
 
-`bunx skills add e-simpson/improve-architecture-skill --skill improve-architecture --agent codex --global --yes`
+`bunx skills add e-simpson/improve-architecture --skill improve-architecture --agent codex --global --yes`
+```
 
 Prefer bunx, but npx also works. If you do not have Bun, replace `bunx` with `npx`.
 
-Then use $improve-architecture to run a Full architecture audit of this repository. Inspect it from first principles, produce an evidence-backed target architecture and implementation-ready cleanup plan, but do not implement until I approve the plan.
+### Quick audit
+
+```text
+$improve-architecture quick audit
+```
+
+### Full audit
+
+```text
+$improve-architecture full audit
+```
+
+### Implement
+
+```text
+Implement the architecture plan.
 ```
 
 ## What it does
@@ -46,26 +64,6 @@ It is deliberately broader than a folder organizer. It examines:
 - stale plans, duplicated documentation trees, mystery artifacts, and redundant local config;
 - lint and type debt that can be ratcheted into enforceable budgets;
 - architectural rules that should become automated structure checks.
-
-## Use it
-
-### Full audit
-
-```text
-$improve-architecture full audit
-```
-
-### Quick audit
-
-```text
-$improve-architecture quick audit
-```
-
-### Implement the approved plan
-
-```text
-Implement the architecture plan you just produced. Preserve unrelated work, verify each migration wave, and finish with the full relevant repository checks.
-```
 
 ## How it thinks
 
