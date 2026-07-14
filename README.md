@@ -52,13 +52,13 @@ It is deliberately broader than a folder organizer. It examines:
 ### Full audit
 
 ```text
-Use $improve-architecture to run a Full audit of this repository. Produce the target architecture, decision table, deletion and rename inventories, migration order, and verification gates. Do not implement yet.
+$improve-architecture full audit
 ```
 
 ### Quick audit
 
 ```text
-Use $improve-architecture for a Quick audit. Find only the highest-confidence structural problems and give me a compact implementation plan.
+$improve-architecture quick audit
 ```
 
 ### Implement the approved plan
